@@ -1,9 +1,11 @@
-
+import { Button,Segment } from 'semantic-ui-react'
 
 export default function Home() {
   return (
     <div>
-      <p>hola mundo</p>
+      <Segment inverted>
+      <Button inverted color='red'>hola mundo</Button>
+      </Segment>
     </div>
   )
 }
